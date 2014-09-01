@@ -45,6 +45,14 @@ a {
   width: 110px;
   top: 6px; }
 
+/*--------- Filter -----------*/
+.filterOptions {
+  padding-left: 0; }
+  .filterOptions li {
+    float: left;
+    margin-right: 10px; }
+
+/*--------- End Filter -----------*/
 .navbar-default {
   background-color: #eeeeee; }
   .navbar-default a {
@@ -154,9 +162,9 @@ a {
   color: #eeeeee;
   letter-spacing: 0.08em;
   line-height: 1.6em;
+  background-color: #222222;
   font-family: texgyreadventorregular, sans-serif;
-  font-size: 11px;
-  background-color: #222222; }
+  font-size: 11px; }
   .stats-bar p {
     padding-top: 2px;
     font-size: 20px;

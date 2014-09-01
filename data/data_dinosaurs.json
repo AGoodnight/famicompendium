@@ -6,7 +6,8 @@
                 "Morocco"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Euskelosaurus",
@@ -14,7 +15,8 @@
                 "South Africa"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Euskelosaurus",
@@ -22,7 +24,8 @@
                 "Zimbabwe"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Heterodontosaurus",
@@ -30,7 +33,8 @@
                 "Lesotho"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Massospondylus",
@@ -38,7 +42,8 @@
                 "Lesotho"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Aardonyx",
@@ -46,7 +51,8 @@
                 "South Africa"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Heterodontosaurus",
@@ -54,7 +60,8 @@
                 "South Africa"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Massospondylus",
@@ -62,7 +69,8 @@
                 "South Africa"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Massospondylus",
@@ -70,7 +78,8 @@
                 "Zimbabwe"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Vulcanodon",
@@ -78,7 +87,8 @@
                 "Zimbabwe"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Avalonia",
@@ -86,7 +96,8 @@
                 "England"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Liliensternus",
@@ -94,7 +105,8 @@
                 "France"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Plateosaurus",
@@ -102,7 +114,8 @@
                 "Germany"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Saltopus",
@@ -110,7 +123,8 @@
                 "Scotland"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Plateosaurus",
@@ -118,7 +132,8 @@
                 "Switzerland"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Avalonia",
@@ -126,7 +141,8 @@
                 "United Kingdom"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Sarcosaurus",
@@ -134,7 +150,8 @@
                 "England"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Lophostropheus",
@@ -142,7 +159,8 @@
                 "France"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Pantydraco",
@@ -150,7 +168,8 @@
                 "United Kingdom"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Pantydraco",
@@ -158,7 +177,8 @@
                 "Wales"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Chindesaurus",
@@ -166,7 +186,8 @@
                 "USA"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Coelophysis",
@@ -174,7 +195,8 @@
                 "USA"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Syntarsus",
@@ -182,7 +204,8 @@
                 "USA"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Ammosaurus",
@@ -190,7 +213,8 @@
                 "USA"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Anchisaurus",
@@ -198,7 +222,8 @@
                 "USA"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Dilophosaurus",
@@ -206,7 +231,8 @@
                 "USA"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Scutellosaurus",
@@ -214,7 +240,8 @@
                 "USA"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Eoraptor",
@@ -222,7 +249,8 @@
                 "Argentina"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Staurikosaurus",
@@ -230,7 +258,8 @@
                 "Brazil"
             ],
             "time_period": "Late Triassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Cryolophosaurus",
@@ -238,7 +267,8 @@
                 "Antarctica"
             ],
             "time_period": "Early Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Lapparentosaurus",
@@ -246,7 +276,8 @@
                 "Madagascar"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Nqwebasaurus",
@@ -254,7 +285,8 @@
                 "South Africa"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Yinlong",
@@ -262,7 +294,8 @@
                 "Peoples Republic of China"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Ceratopian"
+            "body_type": "Ceratopian",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Rhoetosaurus",
@@ -270,7 +303,8 @@
                 "Australia"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Proceratosaurus",
@@ -278,7 +312,8 @@
                 "England"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Segisaurus",
@@ -286,7 +321,8 @@
                 "USA"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Amygdalodon",
@@ -294,7 +330,8 @@
                 "Argentina"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Brachiosaurus",
@@ -304,7 +341,8 @@
                 "Tanzania"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Yangchuanosaurus",
@@ -312,7 +350,8 @@
                 "Peoples Republic of China"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Allosaurus",
@@ -320,7 +359,8 @@
                 "USA"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Diplodocus",
@@ -328,7 +368,8 @@
                 "USA"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Stegosaurus",
@@ -336,7 +377,8 @@
                 "USA"
             ],
             "time_period": "Mid Jurassic",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Ouranosaurus",
@@ -344,7 +386,8 @@
                 "Niger"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Suchomimus",
@@ -352,7 +395,8 @@
                 "Niger"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Fukuisaurus",
@@ -360,7 +404,8 @@
                 "Japan"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Caudipteryx",
@@ -368,7 +413,8 @@
                 "Peoples Republic of China"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Psittacosaurus",
@@ -376,7 +422,8 @@
                 "Russia"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Muttaburrasaurus",
@@ -384,7 +431,8 @@
                 "Australia"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Iguanodon",
@@ -392,7 +440,8 @@
                 "Australia"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Iguanodon",
@@ -400,7 +449,8 @@
                 "Germany"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Valdosaurus",
@@ -408,7 +458,8 @@
                 "Romania"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Pelicanimimus",
@@ -416,7 +467,8 @@
                 "Spain"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ornithomimosaur"
+            "body_type": "Ornithomimosaur",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Becklespinax",
@@ -424,7 +476,8 @@
                 "United Kingdom"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Acrocanthosaurus",
@@ -432,7 +485,8 @@
                 "Canada"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Cedarpelta",
@@ -440,7 +494,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Deinonychus",
@@ -448,7 +503,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Gastonia",
@@ -456,7 +512,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Iguanodon",
@@ -464,7 +521,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Nodosaurus",
@@ -472,7 +530,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Pleurocoelus",
@@ -480,7 +539,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Sauropelta",
@@ -488,7 +548,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Silvisaurus",
@@ -496,7 +557,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Supersaurus",
@@ -504,7 +566,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Tenontosaurus",
@@ -512,7 +575,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Utahraptor",
@@ -520,7 +584,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Zephyrosaurus",
@@ -528,7 +593,8 @@
                 "USA"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Giganotosaurus",
@@ -536,7 +602,8 @@
                 "Argentina"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Irritator",
@@ -544,7 +611,8 @@
                 "Brazil"
             ],
             "time_period": "Early Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Majungatholus",
@@ -552,7 +620,8 @@
                 "Madagascar"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Spinosaurus",
@@ -561,7 +630,8 @@
                 "Egypt"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Rugops",
@@ -569,7 +639,8 @@
                 "Niger"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Antarctopelta",
@@ -577,7 +648,8 @@
                 "Antarctica"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Isisaurus",
@@ -585,7 +657,8 @@
                 "India"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Jaxartosaurus",
@@ -593,7 +666,8 @@
                 "Kazakhstan"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Velociraptor",
@@ -601,7 +675,8 @@
                 "Mongolia"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Small theropod"
+            "body_type": "Small theropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Shantungosaurus",
@@ -609,7 +684,8 @@
                 "Peoples Republic of China"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Nipponosaurus",
@@ -617,7 +693,8 @@
                 "Russia"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Rhabdodon",
@@ -625,7 +702,8 @@
                 "Austria"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Rhabdodon",
@@ -633,7 +711,8 @@
                 "France"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Euornithopod"
+            "body_type": "Euornithopod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Magyarosaurus",
@@ -641,7 +720,8 @@
                 "Romania"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Hypselosaurus",
@@ -649,7 +729,8 @@
                 "Spain"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Albertosaurus",
@@ -657,7 +738,8 @@
                 "Canada"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Ankylosaurus",
@@ -666,7 +748,8 @@
                 "Canada"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Ankylosaurid"
+            "body_type": "Ankylosaurid",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Triceratops",
@@ -674,7 +757,8 @@
                 "USA"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Ceratopian"
+            "body_type": "Ceratopian",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Tyrannosaurus",
@@ -683,7 +767,8 @@
                 "Canada"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Large theropod"
+            "body_type": "Large theropod",
+            "img": "../img/utahRaptor.jpg"
         },
         {
             "species": "Maxakalisaurus",
@@ -691,7 +776,8 @@
                 "Brazil"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/vulcanodon.jpg"
         },
         {
             "species": "Antarctosaurus",
@@ -699,7 +785,8 @@
                 "Chile"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/azendohsaurus.jpg"
         },
         {
             "species": "Antarctosaurus",
@@ -707,7 +794,8 @@
                 "Uruguay"
             ],
             "time_period": "Late Cretaceous",
-            "body_type": "Sauropod"
+            "body_type": "Sauropod",
+            "img": "../img/utahRaptor.jpg"
         }
     ]
 }

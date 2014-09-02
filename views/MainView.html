@@ -24,12 +24,12 @@
 									</select>
 								</li>
 								<li>
-									<select ng-model="sortCountry" ng-options="dinosaur.country[0] for dinosaur in Dinosaurs">
+									<select ng-model="sortCountry" ng-options="dinosaur.country for dinosaur in Dinosaurs | unique: 'country'">
 										<option value="">Country</option>
 									</select>
 								</li>
 								<li>
-									<select ng-model="sortPeriod" ng-options="dinosaur.time_period for dinosaur in Dinosaurs">
+									<select ng-model="sortPeriod" ng-options="dinosaur.time_period for dinosaur in Dinosaurs | unique: 'time_period'">
 										<option value="">Time Period</option>
 									</select>
 								</li>
@@ -42,7 +42,7 @@
 						</div>
 					</div> 
 
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 stepsComponentContain" on-finish-render ng-repeat="dinosaur in Dinosaurs | filter:sortCountry">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 stepsComponentContain" on-finish-render ng-repeat="dinosaur in Dinosaurs">
 						<div class="stepsComponent" ng-class-even="'stepsComponentAlternative'">
 							<h3 class="stepsComponent-heading">{{dinosaur.species}}</h3>
 							<p>Country: {{dinosaur.country[0]}}</p>

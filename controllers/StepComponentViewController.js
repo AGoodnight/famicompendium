@@ -1,15 +1,28 @@
 app.controller('StepComponentViewController', ['$scope', '$http', 'DinoData', function($scope, $http, DinoData) {
 	$scope.Dinosaurs = DinoData.getDinosaurs();  
-
-	// $scope.countries = []
-	// 	angular.forEach($scope.Dinosaurs, function(value, country) {
-	// 		if ($scope.countries.indexOf(value.country) === -1) {
-	// 			$scope.genres.push(value.country);
-	// 		}
-	// 	});
-
-	$scope.$on('ngRepeatFinished', function() {
-		console.log('ng repeat finished');
-	    
-	});
 }]);
+
+app.filter('unique', function() {
+   return function(collection, category) {
+      var output = [], 
+          keys = [];
+
+      angular.forEach(collection, function(item) {
+
+      	switch(typeof category) {
+
+      	}
+
+			var itemCategory = item[category];
+			
+			angular.forEach(itemCategory, function(key) {
+				if (keys.indexOf(key) === -1) {
+	              keys.push(key);
+	              output.push(item);
+	          }
+			});
+      });
+
+      return output;
+   };
+});

@@ -4,153 +4,84 @@ app.factory('DinoData', function() {
     	   return [
     		{
                 "species": "Azendohsaurus",
-                "country": [
-                    "Morocco"
-                ],
+                "country": ["Morocco"],
                 "time_period": "Late Triassic",
                 "body_type": "Sauropod",
                 "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Euskelosaurus",
-                "country": [
-                    "South Africa"
-                ],
+                "country": ["South Africa","Zimbabwe"],
                 "time_period": "Late Triassic",
                 "body_type": "Sauropod",
                 "img": "../img/utahRaptor.jpg"
             },
             {
-                "species": "Euskelosaurus",
-                "country": [
-                    "Zimbabwe"
-                ],
-                "time_period": "Late Triassic",
-                "body_type": "Sauropod",
-                "img": "../img/vulcanodon.jpg"
-            },
-            {
                 "species": "Heterodontosaurus",
-                "country": [
-                    "Lesotho"
-                ],
+                "country": ["Lesotho","South Africa"],
                 "time_period": "Early Jurassic",
                 "body_type": "Euornithopod",
                 "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Massospondylus",
-                "country": [
-                    "Lesotho"
-                ],
+                "country": ["Lesotho","South Africa","Zimbabwe"],
                 "time_period": "Early Jurassic",
                 "body_type": "Sauropod",
                 "img": "../img/utahRaptor.jpg"
             },
             {
                 "species": "Aardonyx",
-                "country": [
-                    "South Africa"
-                ],
-                "time_period": "Early Jurassic",
-                "body_type": "Sauropod",
-                "img": "../img/vulcanodon.jpg"
-            },
-            {
-                "species": "Heterodontosaurus",
-                "country": [
-                    "South Africa"
-                ],
-                "time_period": "Early Jurassic",
-                "body_type": "Euornithopod",
-                "img": "../img/azendohsaurus.jpg"
-            },
-            {
-                "species": "Massospondylus",
-                "country": [
-                    "South Africa"
-                ],
-                "time_period": "Early Jurassic",
-                "body_type": "Sauropod",
-                "img": "../img/utahRaptor.jpg"
-            },
-            {
-                "species": "Massospondylus",
-                "country": [
-                    "Zimbabwe"
-                ],
+                "country": ["South Africa"],
                 "time_period": "Early Jurassic",
                 "body_type": "Sauropod",
                 "img": "../img/vulcanodon.jpg"
             },
             {
                 "species": "Vulcanodon",
-                "country": [
-                    "Zimbabwe"
-                ],
+                "country": ["Zimbabwe"],
                 "time_period": "Early Jurassic",
                 "body_type": "Sauropod",
                 "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Avalonia",
-                "country": [
-                    "England"
-                ],
+                "country": ["England"],
                 "time_period": "Late Triassic",
                 "body_type": "Sauropod",
                 "img": "../img/utahRaptor.jpg"
             },
             {
                 "species": "Liliensternus",
-                "country": [
-                    "France"
-                ],
+                "country": ["France"],
                 "time_period": "Late Triassic",
                 "body_type": "Small theropod",
                 "img": "../img/vulcanodon.jpg"
             },
             {
                 "species": "Plateosaurus",
-                "country": [
-                    "Germany"
-                ],
+                "country": ["Germany","Switzerland"],
                 "time_period": "Late Triassic",
                 "body_type": "Sauropod",
                 "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Saltopus",
-                "country": [
-                    "Scotland"
-                ],
+                "country": ["Scotland"],
                 "time_period": "Late Triassic",
                 "body_type": "Small theropod",
                 "img": "../img/utahRaptor.jpg"
             },
             {
-                "species": "Plateosaurus",
-                "country": [
-                    "Switzerland"
-                ],
-                "time_period": "Late Triassic",
-                "body_type": "Sauropod",
-                "img": "../img/vulcanodon.jpg"
-            },
-            {
                 "species": "Avalonia",
-                "country": [
-                    "United Kingdom"
-                ],
+                "country": ["United Kingdom"],
                 "time_period": "Late Triassic",
                 "body_type": "Sauropod",
                 "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Sarcosaurus",
-                "country": [
-                    "England"
-                ],
+                "country": ["England"],
                 "time_period": "Early Jurassic",
                 "body_type": "Large theropod",
                 "img": "../img/utahRaptor.jpg"
@@ -167,20 +98,11 @@ app.factory('DinoData', function() {
             {
                 "species": "Pantydraco",
                 "country": [
-                    "United Kingdom"
+                    "United Kingdom", "Wales"
                 ],
                 "time_period": "Early Jurassic",
                 "body_type": "Euornithopod",
                 "img": "../img/azendohsaurus.jpg"
-            },
-            {
-                "species": "Pantydraco",
-                "country": [
-                    "Wales"
-                ],
-                "time_period": "Early Jurassic",
-                "body_type": "Euornithopod",
-                "img": "../img/utahRaptor.jpg"
             },
             {
                 "species": "Chindesaurus",
@@ -439,16 +361,7 @@ app.factory('DinoData', function() {
             {
                 "species": "Iguanodon",
                 "country": [
-                    "Australia"
-                ],
-                "time_period": "Early Cretaceous",
-                "body_type": "Euornithopod",
-                "img": "../img/azendohsaurus.jpg"
-            },
-            {
-                "species": "Iguanodon",
-                "country": [
-                    "Germany"
+                    "Germany", "USA", "Australia"
                 ],
                 "time_period": "Early Cretaceous",
                 "body_type": "Euornithopod",
@@ -516,15 +429,6 @@ app.factory('DinoData', function() {
                 "time_period": "Early Cretaceous",
                 "body_type": "Ankylosaurid",
                 "img": "../img/vulcanodon.jpg"
-            },
-            {
-                "species": "Iguanodon",
-                "country": [
-                    "USA"
-                ],
-                "time_period": "Early Cretaceous",
-                "body_type": "Euornithopod",
-                "img": "../img/azendohsaurus.jpg"
             },
             {
                 "species": "Nodosaurus",
@@ -701,20 +605,11 @@ app.factory('DinoData', function() {
             {
                 "species": "Rhabdodon",
                 "country": [
-                    "Austria"
+                    "Austria","France"
                 ],
                 "time_period": "Late Cretaceous",
                 "body_type": "Euornithopod",
                 "img": "../img/azendohsaurus.jpg"
-            },
-            {
-                "species": "Rhabdodon",
-                "country": [
-                    "France"
-                ],
-                "time_period": "Late Cretaceous",
-                "body_type": "Euornithopod",
-                "img": "../img/utahRaptor.jpg"
             },
             {
                 "species": "Magyarosaurus",
@@ -784,20 +679,11 @@ app.factory('DinoData', function() {
             {
                 "species": "Antarctosaurus",
                 "country": [
-                    "Chile"
+                    "Chile", "Uruguay"
                 ],
                 "time_period": "Late Cretaceous",
                 "body_type": "Sauropod",
                 "img": "../img/azendohsaurus.jpg"
-            },
-            {
-                "species": "Antarctosaurus",
-                "country": [
-                    "Uruguay"
-                ],
-                "time_period": "Late Cretaceous",
-                "body_type": "Sauropod",
-                "img": "../img/utahRaptor.jpg"
             }
     	   ]
         },

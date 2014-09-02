@@ -14,39 +14,41 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<section ng-controller="StepComponentViewController as stepComponent">
-					<div class="filterContain">
-						<p>Filter By:</p>
-						<ul class="filterOptions clearfix">
-							<li>
-								<select ng-model="defaultSpecies" ng-options="dinosaur.species for dinosaur in dinosaurs">
-									<option value="">Species</option>
-								</select>
-							</li>
-							<li>
-								<select ng-model="defaultCountry" ng-options="dinosaur.country[0] for dinosaur in dinosaurs">
-									<option value="">Country</option>
-								</select>
-							</li>
-							<li>
-								<select ng-model="defaultPeriod" ng-options="dinosaur.time_period for dinosaur in dinosaurs">
-									<option value="">Time Period</option>
-								</select>
-							</li>
-							<li>
-								<select ng-model="defaultBody" ng-options="dinosaur.body_type for dinosaur in dinosaurs">
-									<option value="">Body Type</option>
-								</select>
-							</li>
-						</ul>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="filterContain">
+							<p>Filter By:</p>
+							<ul class="filterOptions clearfix">
+								<li>
+									<select ng-model="sortSpecies" ng-options="dinosaur.species for dinosaur in Dinosaurs">
+										<option value="">Species</option>
+									</select>
+								</li>
+								<li>
+									<select ng-model="sortCountry" ng-options="dinosaur.country[0] for dinosaur in Dinosaurs">
+										<option value="">Country</option>
+									</select>
+								</li>
+								<li>
+									<select ng-model="sortPeriod" ng-options="dinosaur.time_period for dinosaur in Dinosaurs">
+										<option value="">Time Period</option>
+									</select>
+								</li>
+								<li>
+									<select ng-model="sortBody" ng-options="dinosaur.body_type for dinosaur in Dinosaurs">
+										<option value="">Body Type</option>
+									</select>
+								</li>
+							</ul>
+						</div>
 					</div> 
 
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-repeat="dinosaur in dinosaurs | filter:defaultCountry">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 stepsComponentContain" on-finish-render ng-repeat="dinosaur in Dinosaurs | filter:sortCountry">
 						<div class="stepsComponent" ng-class-even="'stepsComponentAlternative'">
 							<h3 class="stepsComponent-heading">{{dinosaur.species}}</h3>
 							<p>Country: {{dinosaur.country[0]}}</p>
 							<p>Time Period: {{dinosaur.time_period}}</p>
 							<p>Body Type: {{dinosaur.body_type}}</p>
-							<img ng-src="{{dinosaur.img}}" />
+							<img class="featuredImg" ng-src="{{dinosaur.img}}" />
 						</div>
 					</div>
 				</section>
@@ -55,8 +57,12 @@
 	</div>
 	<script src='../js/jquery-1.11.1.js'></script>
 	<script src='../js/bootstrap.min.js'></script>
+	<script src="../js/equalHeightsPlugin.js"></script>
 	<script src="../js/angular.js"></script>
 	<script src="../js/app.js"></script>
+	<script src="../js/global.js"></script>
+	<script src="../directives/DirectiveOnFinishRender.js"></script>
+	<script src="../factories/DinoData.js"></script>
 	<script src="../controllers/StepComponentViewController.js"></script>
 </body>
 </html>

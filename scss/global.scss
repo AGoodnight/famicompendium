@@ -8,6 +8,7 @@ $clay: #eeeeee;
 $silt: #555555;
 $granite: #333333;
 $charcoal: #222222;
+$palegreen: #CDFFD9;
 
 // Fonts
 $avant-bold: texgyreadventorbold, sans-serif;
@@ -75,7 +76,9 @@ a {
 /*--------- Filter -----------*/  
 .filter {
 	&Contain {
-		
+		padding: 10px;
+		background: $palegreen;
+		margin: 20px auto;
 	}
 	
 	&Options {

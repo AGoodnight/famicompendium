@@ -9,10 +9,6 @@ app.filter('unique', function() {
 
       angular.forEach(collection, function(item) {
 
-      	switch(typeof category) {
-
-      	}
-
 			var itemCategory = item[category];
 			
 			angular.forEach(itemCategory, function(key) {

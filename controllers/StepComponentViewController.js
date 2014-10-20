@@ -7,17 +7,31 @@ app.filter('unique', function() {
       var output = [], 
           keys = [];
 
-      angular.forEach(collection, function(item) {
+		if (category === 'country') {
+			var $countArr = collection[1].country;
+		
+			for (var x=0; x<$countArr.length; x++) { // this loop removes repeated values from the drop downs
+				var countryVal = $countArr[x];
+				if (keys.indexOf(countryVal) === -1) {
+					keys.push(countryVal);
 
-			var itemCategory = item[category];
-			
-			angular.forEach(itemCategory, function(key) {
-				if (keys.indexOf(key) === -1) {
-	              keys.push(key);
-	              output.push(item);
-	          }
-			});
-      });
+					if (output.indexOf(countryVal) === -1) {
+						output.push(collection[1]);
+					}
+				}
+			}
+		} 
+	// else {
+	// 	angular.forEach(collection, function(item) { // this loop removes repeated values from the drop downs
+	// 		var itemCategory = item[category];
+	// 		if (keys.indexOf(itemCategory) === -1) {
+	// 			keys.push(itemCategory);
+	// 			output.push(item);
+	// 		}
+	// 	});
+	// }
+
+	  console.log("keys", keys, "output", output);
 
       return output;
    };

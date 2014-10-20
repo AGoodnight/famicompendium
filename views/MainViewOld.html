@@ -26,18 +26,13 @@
 								<li>
 									<select ng-model="sortCountry" ng-options="dinosaur.country for dinosaur in Dinosaurs | unique: 'country'">
 										<option value="">Country</option>
-										<option value="morocco">Morocco</option>
-										<option value="south africa">South Africa</option>
-										<option value="lesotho">Lesotho</option>
-										<option value="zimbabwe">Zimbabwe</option>
-										<option value="england">England</option>
-										<option value="france">France</option>
-										<option value="germany">Germany</option>
-										<option value="scotland">Scotland</option>
+										<option data-ng-click="setSelectedCountry()" value="south africa">South Africa</option>
+										<option data-ng-click="setSelectedCountry()" value="zimbabwe">Zimbabwe</option>
+										<option data-ng-click="setSelectedCountry()" value="morocco">Morocco</option>
 									</select>
 								</li>
 								<li>
-									<select ng-model="sortPeriod" ng-options="dinosaur.time_period for dinosaur in Dinosaurs">
+									<select ng-model="sortPeriod" ng-options="dinosaur.time_period for dinosaur in Dinosaurs | unique: 'time_period'">
 										<option value="">Time Period</option>
 									</select>
 								</li>
@@ -50,7 +45,7 @@
 						</div>
 					</div> 
 
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 stepsComponentContain" on-finish-render ng-repeat="dinosaur in Dinosaurs">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 stepsComponentContain" on-finish-render data-ng-repeat="dinosaur in Dinosaurs">
 						<div class="stepsComponent" ng-class-even="'stepsComponentAlternative'">
 							<h3 class="stepsComponent-heading">{{dinosaur.species}}</h3>
 							<p>Country: {{dinosaur.country[0]}}</p>

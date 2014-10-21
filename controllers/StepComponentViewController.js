@@ -1,38 +1,22 @@
+'use strict';
+
 app.controller('StepComponentViewController', ['$scope', '$http', 'DinoData', function($scope, $http, DinoData) {
 	$scope.Dinosaurs = DinoData.getDinosaurs();  
 }]);
 
+app.controller('Test', ['$scope', '$http', 'DinoData', function($scope, $http, DinoData) {
+	$scope.dinosaurs = DinoData.getDinosaurs(); 
+	$scope.selectedDinos = $scope.dinosaurs[0];
+}]);
+
 app.filter('unique', function() {
-   return function(collection, category) {
-      var output = [], 
-          keys = [];
+	return function (dinosaurs) {
+		var filtered = [];
 
-		if (category === 'country') {
-			var $countArr = collection[1].country;
-		
-			for (var x=0; x<$countArr.length; x++) { // this loop removes repeated values from the drop downs
-				var countryVal = $countArr[x];
-				if (keys.indexOf(countryVal) === -1) {
-					keys.push(countryVal);
-
-					if (output.indexOf(countryVal) === -1) {
-						output.push(collection[1]);
-					}
-				}
-			}
-		} 
-	// else {
-	// 	angular.forEach(collection, function(item) { // this loop removes repeated values from the drop downs
-	// 		var itemCategory = item[category];
-	// 		if (keys.indexOf(itemCategory) === -1) {
-	// 			keys.push(itemCategory);
-	// 			output.push(item);
-	// 		}
-	// 	});
-	// }
-
-	  console.log("keys", keys, "output", output);
-
-      return output;
-   };
+		for (var x=0; x < dinosaurs.length; x++) {
+			filtered.forEach(function(item) {
+				return item;
+			});
+		}
+	}
 });

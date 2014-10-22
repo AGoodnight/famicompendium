@@ -39,7 +39,7 @@
 							<th>Category</th>
 							<th>Investment Franchise</th>
 						</tr>
-						<tr ng-class-even="'fundAlt'" on-finish-render ng-repeat="fund in funds | filter:assetClassFilter | filter:investmentFranchiseFilter">
+						<tr ng-class-even="'fundAlt'" on-finish-render ng-repeat="fund in funds | filter:fundFilter">
 							<td><a href="#">{{fund.fund_name}}</a></td>
 							<td>{{fund.asset_class}}</td>
 							<td>{{fund.category}}</td>

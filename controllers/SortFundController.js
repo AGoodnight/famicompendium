@@ -31,7 +31,6 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
                 $scope.isAssetClassChecked = true;
             }
     	});
-        console.log($scope.isInvestmentFranchiseChecked, $scope.isAssetClassChecked);
     }
 
     $scope.updateSelected = function(fundType) {
@@ -43,7 +42,7 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     	}
     }
 
-    $scope.investmentFranchiseFilter = function(funds) {
+    $scope.fundFilter = function(funds) {
     	if ($scope.selectedFunds.length) {
     		if ($scope.isAssetClassChecked && $.inArray(funds.asset_class, $scope.selectedFunds) === -1) {
     			return;

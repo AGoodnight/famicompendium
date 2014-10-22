@@ -14,11 +14,24 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     });
 
     $scope.updateChecked = function(currentArray) {
-    	console.log(currentArray);
+        $scope.isAssetClassChecked = false;
+        $scope.isInvestmentFranchiseChecked = false;
+
+        if (currentArray.length === 0) {
+            $scope.isInvestmentFranchiseChecked = false; 
+            $scope.isAssetClassChecked = false;
+        }
+
     	currentArray.forEach(function(item) {
-    		$.inArray(item, $scope.investmentFranchise) === -1 ? $scope.isInvestmentFranchiseChecked = false : $scope.isInvestmentFranchiseChecked = true;
-    		$.inArray(item, $scope.assetClasses) === -1 ? $scope.isAssetClassChecked = false : $scope.isAssetClassChecked = true;
+            if ($.inArray(item, $scope.investmentFranchise) > -1) {
+                $scope.isInvestmentFranchiseChecked = true;
+            }            
+
+            if ($.inArray(item, $scope.assetClasses) > -1) {
+                $scope.isAssetClassChecked = true;
+            }
     	});
+        console.log($scope.isInvestmentFranchiseChecked, $scope.isAssetClassChecked);
     }
 
     $scope.updateSelected = function(fundType) {
@@ -34,7 +47,7 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     	if ($scope.selectedFunds.length) {
     		if ($scope.isAssetClassChecked && $.inArray(funds.asset_class, $scope.selectedFunds) === -1) {
     			return;
-    		}
+    		} 
 
     		if ($scope.isInvestmentFranchiseChecked && $.inArray(funds.investment_franchise, $scope.selectedFunds) === -1) {
     			return;

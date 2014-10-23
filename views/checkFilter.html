@@ -1,36 +1,38 @@
-<html ng-app="dinoApp">
+<html ng-app="victoryApp">
 <head>
-<title>Main View</title>
+<title>Victory Capital</title>
 <link href='../css/bootstrap.min.css' rel='stylesheet'></link>
 <link href='../fonts/adventor_bold/stylesheet.css' rel='stylesheet'></link>
 <link href='../fonts/adventor_regular/stylesheet.css' rel='stylesheet'></link>
 <link href='../css/font-awesome.min.css' rel='stylesheet'></link>
 <link href='../css/global.css' rel='stylesheet'></link> 
-<link href='../css/stepsComponent.css' rel='stylesheet'></link> 
+<link href='../css/filterCmpnt.css' rel='stylesheet'></link> 
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<section ng-controller="SortFundController as sortFund">
+				<section ng-controller="SortFundController as sortCtrl">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<div class="filterContain">
-							<p>Filters</p>
+						<form class="filterContain" name="filterForm">
 							<div class="filterOptions clearfix">
-								<a href="#">Clear Filters</a>
+								<a href="#" ng-click="clearFilters()">Clear Filters</a>
 								<h2>Asset Class</h2>
-								<input type="checkbox" ng-click="updateSelected('US Equity')"/>US Equity<br/>
-								<input type="checkbox" ng-click="updateSelected('Non-US Equity')"/>Non-US Equity<br/>
-								<input type="checkbox" ng-click="updateSelected('Mixed Asset Class')"/>Mixed Asset Class<br/>
-								<input type="checkbox" ng-click="updateSelected('Alternative')"/>Alternatives<br/>
-								<input type="checkbox" ng-click="updateSelected('Fixed Income')"/>Fixed Income<br/>
-							
+
+								<ul>
+									<li ng-repeat="assetClass in assetClasses">
+										<input type="checkbox" ng-model="selectedFunds[assetClass]" value="{{assetClass}}" name="{{assetClass}}" ng-click="updateSelected(assetClass)"> {{assetClass}}
+									</li>	
+								</ul>
+
 								<h2>Investment Franchise</h2>
-								<input type="checkbox" ng-click="updateSelected('Integrity')"/>Integrity<br/>
-								<input type="checkbox" ng-click="updateSelected('Munder')"/>Munder<br/>
-								<input type="checkbox" ng-click="updateSelected('Boutique Name')"/>Boutique Name<br/>
+								<ul>
+									<li ng-repeat="investmentFranchise in investmentFranchises">
+										<input type="checkbox" ng-model="selectedFunds[investmentFranchise]" value="{{investmentFranchise}}" name="{{investmentFranchise}}" ng-click="updateSelected(investmentFranchise)"> {{investmentFranchise}}
+									</li>
+								</ul>
 							</div>
-						</div>
+						</form>
 					</div> 
 					<table class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fundContainer">
 						<tr>
@@ -39,7 +41,7 @@
 							<th>Category</th>
 							<th>Investment Franchise</th>
 						</tr>
-						<tr ng-class-even="'fundAlt'" on-finish-render ng-repeat="fund in funds | filter:fundFilter">
+						<tr ng-class-even="'fundAlt'" on-finish-render ng-repeat="fund in funds | sortFunds:selectedFunds:isAssetClassChecked:isInvestmentFranchiseChecked">
 							<td><a href="#">{{fund.fund_name}}</a></td>
 							<td>{{fund.asset_class}}</td>
 							<td>{{fund.category}}</td>
@@ -58,6 +60,7 @@
 	<script src="../js/global.js"></script>
 	<script src="../directives/DirectiveOnFinishRender.js"></script>
 	<script src="../factories/fundData.js"></script>
+	<script src="../filters/sortFunds.js"></script>
 	<script src="../controllers/SortFundController.js"></script>
 </body>
 </html>

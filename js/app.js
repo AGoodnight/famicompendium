@@ -1,6 +1,1 @@
-var app = angular.module('dinoApp', []);
-
-
-
-
-
+var app = angular.module('victoryApp', []);

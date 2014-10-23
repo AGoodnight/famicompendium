@@ -5,25 +5,38 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     $scope.selectedFunds = $scope.$root.selectedFunds = [];
     $scope.isAssetClassChecked = false;
     $scope.isInvestmentFranchiseChecked = false;
-    $scope.assetClasses = ["US Equity", "Non-US Equity", "Mixed Asset Class", "Alternative", "Fixed Income"];
-    $scope.investmentFranchise = ["Integrity", "Munder", "Boutique Name"];
+    $scope.assetClasses = [];
+    $scope.investmentFranchises = [];
 
-    $scope.$watchCollection('selectedFunds', function (newVal, oldVal) {
-    	if (!newVal) { return; }
-		$scope.updateChecked(newVal);
+    $scope.funds.forEach(function(item) { // gets all the possible choice values and puts them into two arrays
+        $.inArray(item.asset_class, $scope.assetClasses) === -1 ? $scope.assetClasses.push(item.asset_class) : false;
+        $.inArray(item.investment_franchise, $scope.investmentFranchises) === -1 ? $scope.investmentFranchises.push(item.investment_franchise) : false;
     });
 
-    $scope.updateChecked = function(currentArray) {
+    $scope.$watchCollection('selectedFunds', function (newVal, oldVal) {
+        if (!newVal) { return; }
+        $scope.updateChecked(newVal);
+    });
+
+    $scope.noFilters = function() {
         $scope.isAssetClassChecked = false;
         $scope.isInvestmentFranchiseChecked = false;
+    }
 
-        if (currentArray.length === 0) {
-            $scope.isInvestmentFranchiseChecked = false; 
-            $scope.isAssetClassChecked = false;
+    $scope.clearFilters = function() {
+        $scope.noFilters();
+        $scope.selectedFunds = [];
+    }
+
+    $scope.updateChecked = function(currentArray) {
+       $scope.noFilters();
+
+        if (!currentArray.length) {
+            $scope.noFilters();
         }
 
     	currentArray.forEach(function(item) {
-            if ($.inArray(item, $scope.investmentFranchise) > -1) {
+            if ($.inArray(item, $scope.investmentFranchises) > -1) {
                 $scope.isInvestmentFranchiseChecked = true;
             }            
 
@@ -42,18 +55,16 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     	}
     }
 
-    $scope.fundFilter = function(funds) {
-    	if ($scope.selectedFunds.length) {
-    		if ($scope.isAssetClassChecked && $.inArray(funds.asset_class, $scope.selectedFunds) === -1) {
-    			return;
-    		} 
+    // $scope.fundFilter = function(funds) {
+    // 	if ($scope.selectedFunds.length) {
+    // 		if ($scope.isAssetClassChecked && $.inArray(funds.asset_class, $scope.selectedFunds) === -1) {
+    // 			return;
+    // 		} 
 
-    		if ($scope.isInvestmentFranchiseChecked && $.inArray(funds.investment_franchise, $scope.selectedFunds) === -1) {
-    			return;
-    		}
-    	}
-
-    	return funds;
-    }
-
+    // 		if ($scope.isInvestmentFranchiseChecked && $.inArray(funds.investment_franchise, $scope.selectedFunds) === -1) {
+    // 			return;
+    // 		}
+    // 	}
+    // 	return funds;
+    // }
 }]);

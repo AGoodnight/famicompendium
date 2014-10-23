@@ -1,0 +1,21 @@
+$palegreen: #CDFFD9;
+$darkPastelGreen: #74C086;
+
+.stepsComponent {
+	background: $palegreen;
+	padding: 10px;
+	margin-bottom: 20px;
+
+	&-heading {
+		margin-top: 0;
+	}
+
+	&Alternative {
+		background: $darkPastelGreen;
+	}
+
+	.featuredImg {
+		width: 100%;
+		height: auto; 
+	}
+}  

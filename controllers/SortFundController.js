@@ -54,17 +54,4 @@ app.controller('SortFundController', ['$scope', '$http', 'fundData', function($s
     		$scope.selectedFunds.push(fundType);
     	}
     }
-
-    // $scope.fundFilter = function(funds) {
-    // 	if ($scope.selectedFunds.length) {
-    // 		if ($scope.isAssetClassChecked && $.inArray(funds.asset_class, $scope.selectedFunds) === -1) {
-    // 			return;
-    // 		} 
-
-    // 		if ($scope.isInvestmentFranchiseChecked && $.inArray(funds.investment_franchise, $scope.selectedFunds) === -1) {
-    // 			return;
-    // 		}
-    // 	}
-    // 	return funds;
-    // }
 }]);
